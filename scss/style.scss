@@ -10,6 +10,10 @@
     .pwd {
         max-width: 50%;
     }
+
+    .flexbox-container {
+        flex-direction: row;
+    }
 }
 
 
@@ -32,6 +36,12 @@
 
     .pwd {
         max-width: 25%;
+    }
+
+    .column {
+        h5 {
+            text-align: left;
+        }
     }
 }
 

@@ -37,4 +37,35 @@ $font-weights:(
     font-size: 1.3rem;
 }
 
+.title-body {
+    text-align: center;
+}
 
+#color-title {
+    color: #6f42c1;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.flexbox-container > div {
+    width: 50%;
+    padding: 10px;
+}
+
+.flexbox-container > div:first-child {
+    margin-right: 20px;
+}
+
+.body-nosotros {
+    margin: 5.5rem;
+}
+
+.text-body {
+    margin-left: 2rem;
+    font-weight: 400;
+}
